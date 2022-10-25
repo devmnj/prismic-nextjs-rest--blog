@@ -1,8 +1,5 @@
 
 import HomeContainer from "../components/HomeContainer"
-import StickyPost from "../components/StickyPost"
-import * as prismic from '@prismicio/client'
-import { useAllPrismicDocumentsByType } from '@prismicio/react'
 import PostCard from "../components/PostCard"
 import * as prismicH from '@prismicio/helpers'
 import { createClient } from '../prismicio'
