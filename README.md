@@ -1,34 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<h3 align="center">Nextjs-Prismic Blog </h3>
 
-First, run the development server:
+<div align="center">
 
-```bash
-npm run dev
-# or
+[![Status](https://img.shields.io/badge/status-active-success.svg)]() 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+
+</div>
+
+---
+
+<p align="center"> This is a port of `SvelteKit - Prismic` app built in Nextjs, for comparing speed and performance 
+    <br> 
+</p>
+
+## 📝 Table of Contents
+
+- [About](#about)
+  - [Prerequisites](#-prerequisites-)
+- [Built Using](#built_using)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
+
+## 🧐 About <a name = "about"></a>
+
+The goal of the project is to setup complete blog using `Nextjs` and the` Prismic headless CMS`.
+
+
+### 🧒 Prerequisites <a name = "Prerequisites"></a>
+
+You have to familiar with `Javascript`, `Nextjs`,`Reactjs` and `HTML`,`CSS`   in order to work with this project.
+
+## ⌚ Using the project
+
+Fork the repo and install dependencies, that's all you need. ⛏️. 
+### Install dependencies
+```
+
+yarn install
+```
+### Running the project
+```
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ 
+ will start the project.
+ 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 🚀  Built Using <a name = "built_using"></a>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- [Nextjs](http://nextjs.org/) - Nextjs
+- [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
+- [Prismic](https://prismic.o.com/) - Headless CMS
+- [PrismJS](https://prismjs.com/) - Used For Highlighting Prismic Slice code
+- [NodeJs](https://nodejs.org/en/) - Server Environment
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## ✍️ Authors <a name = "authors"></a> and Guides
+- [@devmnj](https://github.com/devmnj) - Idea & Initial work
+- [JSU](http://javascriptsu.wordpress.com/tag/nextjs) - More guides
 
-## Learn More
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-To learn more about Next.js, take a look at the following resources:
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<!-- code_chunk_output -->
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [📝 Table of Contents](#table-of-contents)
+- [🧐 About ](#about-a-name-abouta)
+  - [🧒 Prerequisites ](#prerequisites-a-name-prerequisitesa)
+- [⌚ Using the project](#using-the-project)
+  - [Install dependencies](#install-dependencies)
+  - [Running the project](#running-the-project)
+- [🚀  Built Using ](#built-using-a-name-built_usinga)
+- [✍️ Authors  and Guides](#️-authors-a-name-authorsa-and-guides)
+- [🎉 Acknowledgements ](#acknowledgements-a-name-acknowledgementa)
 
-## Deploy on Vercel
+<!-- /code_chunk_output -->
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Thank for awesome `Prismic Headless CMS`
